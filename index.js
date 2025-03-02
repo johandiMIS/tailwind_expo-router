@@ -1,5 +1,5 @@
 import ReactNativeFeatureFlags from "react-native/Libraries/ReactNative/ReactNativeFeatureFlags";
-
+import "./global.css"
 // enable the JS-side of the w3c PointerEvent implementation
 ReactNativeFeatureFlags.shouldEmitW3CPointerEvents = () => true;
 
